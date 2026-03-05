@@ -1,0 +1,132 @@
+{
+  "bijgewerkt": "2026-03-05",
+  "lopers": {
+    "1013": [
+      {
+        "naam": "Leander Cingöz",
+        "type": "Ansichtkaart SD",
+        "stuks": 500
+      }
+    ],
+    "1016": [
+      {
+        "naam": "Gijs Hoen-Wichers",
+        "type": "Stadsdeelkandidaat",
+        "stuks": 300
+      }
+    ],
+    "1018": [
+      {
+        "naam": "Eva van der Meulen",
+        "type": "Ansichtkaart SD",
+        "stuks": 150
+      }
+    ],
+    "1019": [
+      {
+        "naam": "Kris van der Veen",
+        "type": "Ansichtkaart SD",
+        "stuks": 600
+      }
+    ],
+    "1024": [
+      {
+        "naam": "Jeroen Boerma",
+        "type": "Zelf",
+        "stuks": 60
+      }
+    ],
+    "1051": [
+      {
+        "naam": "Pelle Monnens",
+        "type": "Zelf",
+        "stuks": 1000
+      }
+    ],
+    "1053": [
+      {
+        "naam": "Anneke Veenhoff",
+        "type": "Ansichtkaart SD",
+        "stuks": 200
+      }
+    ],
+    "1055": [
+      {
+        "naam": "Elisabeth IJmker",
+        "type": "Ansichtkaart SD",
+        "stuks": 600
+      },
+      {
+        "naam": "Daisy van de Zande",
+        "type": "Ansichtkaart SD",
+        "stuks": 400
+      },
+      {
+        "naam": "Thamar Zijlstra",
+        "type": "Stadsdeelkandidaat",
+        "stuks": null
+      }
+    ],
+    "1058": [
+      {
+        "naam": "Misja Steinmetz",
+        "type": "Zelf",
+        "stuks": 500
+      }
+    ],
+    "1064": [
+      {
+        "naam": "Thomas Lamers",
+        "type": "Zelf",
+        "stuks": 1000
+      },
+      {
+        "naam": "Jamaa Taharrasst",
+        "type": "Zelf",
+        "stuks": 500
+      }
+    ],
+    "1091": [
+      {
+        "naam": "Anne de Jong",
+        "type": "Ansichtkaart SD",
+        "stuks": 700
+      },
+      {
+        "naam": "Josja",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Eelco",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Jesse Beek",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Annie",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Alissa",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Marijn",
+        "type": "Zelf",
+        "stuks": null
+      },
+      {
+        "naam": "Aimée",
+        "type": "Zelf",
+        "stuks": null
+      }
+    ]
+  }
+}
