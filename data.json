@@ -17,9 +17,19 @@
     ],
     "1018": [
       {
-        "naam": "Eva van der Meulen",
+        "naam": "Eva van der Meulen SDC",
         "type": "Ansichtkaart SD",
         "stuks": 150
+      },
+      {
+        "naam": "Kris van der Veen",
+        "type": "Ansichtkaart SD",
+        "stuks": 600
+      },
+      {
+        "naam": "Helena de Boer",
+        "type": "Stadsdeelkandidaat",
+        "stuks": 300
       }
     ],
     "1019": [
@@ -36,20 +46,6 @@
         "stuks": 60
       }
     ],
-    "1051": [
-      {
-        "naam": "Pelle Monnens",
-        "type": "Zelf",
-        "stuks": 1000
-      }
-    ],
-    "1053": [
-      {
-        "naam": "Anneke Veenhoff",
-        "type": "Ansichtkaart SD",
-        "stuks": 200
-      }
-    ],
     "1055": [
       {
         "naam": "Elisabeth IJmker",
@@ -57,14 +53,14 @@
         "stuks": 600
       },
       {
-        "naam": "Daisy van de Zande",
-        "type": "Ansichtkaart SD",
-        "stuks": 400
-      },
-      {
         "naam": "Thamar Zijlstra",
         "type": "Stadsdeelkandidaat",
         "stuks": null
+      },
+      {
+        "naam": "Daisy van de Zande",
+        "type": "Ansichtkaart SD",
+        "stuks": 400
       }
     ],
     "1058": [
@@ -76,14 +72,14 @@
     ],
     "1064": [
       {
-        "naam": "Thomas Lamers",
-        "type": "Zelf",
-        "stuks": 1000
-      },
-      {
         "naam": "Jamaa Taharrasst",
         "type": "Zelf",
         "stuks": 500
+      },
+      {
+        "naam": "Thomas Lamers",
+        "type": "Zelf",
+        "stuks": 1000
       }
     ],
     "1091": [
@@ -91,6 +87,11 @@
         "naam": "Anne de Jong",
         "type": "Ansichtkaart SD",
         "stuks": 700
+      },
+      {
+        "naam": "Willa Stoutenbeek",
+        "type": "Ansichtkaart SD",
+        "stuks": 200
       },
       {
         "naam": "Josja",
