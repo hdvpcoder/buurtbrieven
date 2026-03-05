@@ -277,6 +277,14 @@ function buildMap(lopers) {
     return h;
   }
 
+  function tooltip(p) {
+    let h=`<strong>${p.pc4}</strong>`;
+    if(!p.n) return h+`<br><em style="color:#999">Geen loper</em>`;
+    if(p.conflict) h+=` <span style="color:#c0392b">⚠️</span>`;
+    p.lopers.forEach(l=>{ h+=`<br>${l.naam}`; });
+    return h;
+  }
+
   geoLayer = L.geoJSON(geojson,{
     style,
     onEachFeature(feat,layer) {
@@ -284,6 +292,7 @@ function buildMap(lopers) {
       layersByPc[pc] = layer;
       styleByPc[pc] = style(feat);
       layer.bindPopup(popup(feat.properties),{maxWidth:270});
+      layer.bindTooltip(tooltip(feat.properties),{sticky:true, direction:'top', opacity:0.92});
       layer.on({
         mouseover(e) {
           if(hiddenPcs.has(pc)) return;
