@@ -41,7 +41,9 @@ hr.leg { border: none; border-top: 1px solid #444; margin: 6px 0; }
 .ldet { font-size: .73rem; color: #aaa; margin-top: 2px; }
 .tag { display:inline-block; padding: 1px 6px; border-radius: 8px; font-size: .68rem;
         font-weight: 700; background: #1e3d1e; color: #7dcc7d; margin-left: 4px; }
-.conflict-badge { color: #ff6060; font-size: .75rem; font-weight: 700; margin-bottom: 7px; }
+.tag.gr  { background: #1e2d4a; color: #7daee0; }
+.tag.sdc { background: #2d1e3d; color: #b07de0; }
+.tag.vw  { background: #3d2a1e; color: #e0a87d; }
 .geen { color: #666; font-style: italic; font-size: .85rem; padding: 4px 0; }
 #bijgewerkt { position: absolute; bottom: 6px; right: 10px; font-size: 10px;
                color: rgba(255,255,255,.35); z-index: 999; pointer-events: none; }
@@ -108,7 +110,7 @@ hr.fp-sep { border: none; border-top: 1px solid #222; margin: 4px 0; }
   </div>
   <div id="stats">
     <div class="s"><div class="n" id="sn-lopers">–</div><div class="l">postcodes</div></div>
-    <div class="s"><div class="n" id="sn-conflict">–</div><div class="l">conflicten</div></div>
+    <div class="s"><div class="n" id="sn-personen">–</div><div class="l">personen</div></div>
     <div class="s"><div class="n" id="sn-stuks">–</div><div class="l">stuks</div></div>
   </div>
   <button id="filter-btn" onclick="togglePanel()">☰ Postcodes</button>
@@ -217,9 +219,8 @@ function buildPanel(features) {
         </div>
       </div>`;
     bySD[sd].forEach(p => {
-      const badge = p.conflict
-        ? `<span class="fp-badge c">conflict</span>`
-        : p.n === 1 ? `<span class="fp-badge l">${p.lopers[0].naam.split(" ")[0]}</span>`
+      const badge = p.n === 1 ? `<span class="fp-badge l">${p.lopers[0].naam.split(" ")[0]}</span>`
+        : p.n > 1 ? `<span class="fp-badge l">${p.lopers[0].naam.split(" ")[0]} +${p.n-1}</span>`
         : `<span class="fp-badge g">leeg</span>`;
       html += `<label class="fp-row">
         <input type="checkbox" class="fp-cb" data-pc="${p.pc4}" data-sd="${p.stadsdeel}"
@@ -251,8 +252,7 @@ function buildMap(lopers) {
     return {...f, properties: {
       ...f.properties,
       lopers: ll,
-      n: ll.length,
-      conflict: ll.length > 1
+      n: ll.length
     }};
   });
   allFeatures = features;
@@ -260,19 +260,20 @@ function buildMap(lopers) {
 
   function style(f) {
     const p=f.properties, c=SD_COL[p.stadsdeel]||"#666";
-    if(p.conflict)   return {fillColor:CONFLICT, fillOpacity:.72, color:CONFLICT, weight:2.5, opacity:1};
-    if(p.n===1)      return {fillColor:c, fillOpacity:.65, color:c, weight:2, opacity:1};
+    if(p.n>=1)       return {fillColor:c, fillOpacity:.65, color:c, weight:2, opacity:1};
     return               {fillColor:c, fillOpacity:.15, color:c, weight:.8, opacity:.55};
   }
 
   function popup(p) {
     let h=`<div class="pc">${p.pc4}</div><div class="sd">${p.stadsdeel}</div>`;
-    if(p.conflict) h+=`<div class="conflict-badge">⚠️ CONFLICT — ${p.n} lopers</div>`;
     if(!p.n) { h+=`<div class="geen">Geen loper</div>`; return h; }
     p.lopers.forEach(l=>{
+      const kt = l.kandidaat_type||"";
+      const cls = kt.startsWith("Gemeenteraad") ? "gr" : kt.startsWith("Stadsdeel") ? "sdc" : "vw";
+      const label = kt.startsWith("Gemeenteraad") ? "GR" : kt.startsWith("Stadsdeel") ? "SDC" : kt||"?";
       h+=`<div class="lrij">
-        <div class="lnaam">${l.naam}</div>
-        <div class="ldet">${l.stuks?l.stuks+" stuks · ":" "}<span class="tag">${l.type}</span></div>
+        <div class="lnaam">${l.naam}<span class="tag ${cls}">${label}</span></div>
+        <div class="ldet">${l.stuks?l.stuks+" stuks":"–"}${l.type?" · "+l.type:""}</div>
       </div>`;
     });
     return h;
@@ -281,7 +282,6 @@ function buildMap(lopers) {
   function tooltip(p) {
     let h=`<strong>${p.pc4}</strong>`;
     if(!p.n) return h+`<br><em style="color:#999">Geen loper</em>`;
-    if(p.conflict) h+=` <span style="color:#c0392b">⚠️</span>`;
     p.lopers.forEach(l=>{ h+=`<br>${l.naam}`; });
     return h;
   }
@@ -298,9 +298,7 @@ function buildMap(lopers) {
         mouseover(e) {
           if(hiddenPcs.has(pc)) return;
           const p=feat.properties, l=e.target, c=SD_COL[p.stadsdeel]||"#666";
-          l.setStyle(p.conflict
-            ?{fillOpacity:.9,weight:3.5}
-            :p.n?{fillOpacity:.85,weight:3}:{fillOpacity:.35,weight:1.5});
+          l.setStyle(p.n?{fillOpacity:.85,weight:3}:{fillOpacity:.35,weight:1.5});
           l.bringToFront();
         },
         mouseout(e)  { if(!hiddenPcs.has(pc)) geoLayer.resetStyle(e.target); },
@@ -310,15 +308,15 @@ function buildMap(lopers) {
   }).addTo(map);
 
   // Stats
-  let nL=0,nC=0,nS=0;
+  let nL=0,nP=0,nS=0;
   features.forEach(f=>{
     const p=f.properties;
     if(p.n>0) nL++;
-    if(p.conflict) nC++;
+    nP+=p.n;
     p.lopers.forEach(l=>{ if(l.stuks) nS+=l.stuks; });
   });
   document.getElementById("sn-lopers").textContent=nL;
-  document.getElementById("sn-conflict").textContent=nC;
+  document.getElementById("sn-personen").textContent=nP;
   document.getElementById("sn-stuks").textContent=nS.toLocaleString("nl");
 
   buildPanel(features);
