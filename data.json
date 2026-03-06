@@ -5,17 +5,18 @@
       {"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500}
     ],
     "1016": [
-      {"naam": "Gijs Hoen-Wichers", "type": "Stadsdeelkandidaat", "stuks": 300}
+      {"naam": "Gijs Hoen-Wichers", "type": null, "stuks": 300}
     ],
     "1018": [
-      {"naam": "Eva van der Meulen SDC", "type": "Ansichtkaart SD", "stuks": 150},
-      {"naam": "Helena de Boer", "type": "Stadsdeelkandidaat", "stuks": 300}
+      {"naam": "Eva van der Meulen SDC", "type": "Ansichtkaart", "stuks": 150},
+      {"naam": "Helena de Boer", "type": null, "stuks": 300}
     ],
     "1019": [
       {"naam": "Kris van der Veen", "type": "Ansichtkaart", "stuks": 600}
     ],
     "1024": [
-      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": 60}
+      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": null},
+      {"naam": "Martijn Fuldner", "type": "Ansichtkaart", "stuks": 500}
     ],
     "1051": [
       {"naam": "Pelle Monnens", "type": "Eigen brief", "stuks": 1000}
@@ -25,12 +26,12 @@
     ],
     "1055": [
       {"naam": "Elisabeth IJmker", "type": "Ansichtkaart", "stuks": 600},
-      {"naam": "Thamar Zijlstra", "type": "Stadsdeelkandidaat", "stuks": null},
+      {"naam": "Thamar Zijlstra", "type": null, "stuks": null},
       {"naam": "Daisy van de Zande", "type": "Ansichtkaart", "stuks": 400},
-      {"naam": "Emma Berentsen", "type": "Stadsdeelkandidaat", "stuks": 500}
+      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500}
     ],
     "1056": [
-      {"naam": "Emma Berentsen", "type": "Stadsdeelkandidaat", "stuks": 500}
+      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500}
     ],
     "1058": [
       {"naam": "Misja Steinmetz", "type": "Eigen brief", "stuks": 500}
