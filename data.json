@@ -2,150 +2,71 @@
   "bijgewerkt": "2026-03-06",
   "lopers": {
     "1013": [
-      {
-        "naam": "Leander Cingöz",
-        "type": "Ansichtkaart",
-        "stuks": 500,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1016": [
-      {
-        "naam": "Gijs Hoen-Wichers",
-        "type": null,
-        "stuks": 300,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      }
+      {"naam": "Gijs Hoen-Wichers", "type": null, "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
     ],
     "1018": [
-      {
-        "naam": "Eva van der Meulen SDC",
-        "type": "Ansichtkaart",
-        "stuks": 150,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      },
-      {
-        "naam": "Helena de Boer",
-        "type": null,
-        "stuks": 300,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      }
+      {"naam": "Eva van der Meulen SDC", "type": "Ansichtkaart", "stuks": 150, "kandidaat_type": "Stadsdeelkandidaat"},
+      {"naam": "Helena de Boer", "type": null, "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
     ],
     "1019": [
-      {
-        "naam": "Kris van der Veen",
-        "type": "Ansichtkaart",
-        "stuks": 600,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Kris van der Veen", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1024": [
-      {
-        "naam": "Jeroen Boerma",
-        "type": "Eigen brief",
-        "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      },
-      {
-        "naam": "Martijn Fuldner",
-        "type": "Ansichtkaart",
-        "stuks": 500,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
+      {"naam": "Martijn Fuldner", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1051": [
-      {
-        "naam": "Pelle Monnens",
-        "type": "Eigen brief",
-        "stuks": 1000,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Pelle Monnens", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1053": [
-      {
-        "naam": "Anneke Veenhoff",
-        "type": "Ansichtkaart",
-        "stuks": 200,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Anneke Veenhoff", "type": "Ansichtkaart", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1055": [
-      {
-        "naam": "Elisabeth IJmker",
-        "type": "Ansichtkaart",
-        "stuks": 600,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      },
-      {
-        "naam": "Thamar Zijlstra",
-        "type": null,
-        "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      },
-      {
-        "naam": "Daisy van de Zande",
-        "type": "Ansichtkaart",
-        "stuks": 400,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      },
-      {
-        "naam": "Emma Berentsen",
-        "type": "Ansichtkaart",
-        "stuks": 500,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      }
+      {"naam": "Elisabeth IJmker", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Thamar Zijlstra", "type": null, "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
+      {"naam": "Daisy van de Zande", "type": "Ansichtkaart", "stuks": 400, "kandidaat_type": "Stadsdeelkandidaat"},
+      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"}
     ],
     "1056": [
-      {
-        "naam": "Emma Berentsen",
-        "type": "Ansichtkaart",
-        "stuks": 500,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      }
+      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"}
     ],
     "1058": [
-      {
-        "naam": "Misja Steinmetz",
-        "type": "Eigen brief",
-        "stuks": 500,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Misja Steinmetz", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
     "1064": [
-      {
-        "naam": "Jamaa Taharrasst",
-        "type": "Eigen brief",
-        "stuks": 500,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      },
-      {
-        "naam": "Thomas Lamers",
-        "type": "Eigen brief",
-        "stuks": 1000,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Jamaa Taharrasst", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Thomas Lamers", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1087": [
+      {"naam": "Rolf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
     ],
     "1091": [
-      {
-        "naam": "Anne de Jong",
-        "type": "Ansichtkaart",
-        "stuks": 700,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      },
-      {
-        "naam": "Willa Stoutenbeek",
-        "type": "Eigen brief",
-        "stuks": 200,
-        "kandidaat_type": "Gemeenteraadskandidaat"
-      }
+      {"naam": "Anne de Jong", "type": "Ansichtkaart", "stuks": 700, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Willa Stoutenbeek", "type": "Eigen brief", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Famke", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+    ],
+    "1093": [
+      {"naam": "Anna Bomhof", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+    ],
+    "1094": [
+      {"naam": "Béla", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+    ],
+    "1095": [
+      {"naam": "Kris", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
+      {"naam": "Sadaf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
+      {"naam": "Bastiaan", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+    ],
+    "1097": [
+      {"naam": "Ruud", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
+      {"naam": "Lian", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
+      {"naam": "Sybolt", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
     ],
     "1098": [
-      {
-        "naam": "Jesse Beek",
-        "type": "Eigen brief",
-        "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat"
-      }
+      {"naam": "Jesse Beek", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
+      {"naam": "IJsbrand", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
     ]
   }
 }
