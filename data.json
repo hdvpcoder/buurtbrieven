@@ -71,6 +71,42 @@
     "1098": [
       {"naam": "Jesse Beek", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
       {"naam": "IJsbrand", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+    ],
+    "1101": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1102": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1103": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1104": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1105": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1106": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1107": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1108": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+    ],
+    "1109": [
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
     ]
   }
 }
