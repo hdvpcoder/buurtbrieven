@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-03-06",
+  "bijgewerkt": "2026-03-07",
   "lopers": {
     "1013": [
       {"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
@@ -40,12 +40,16 @@
       {"naam": "Jamaa Taharrasst", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"},
       {"naam": "Thomas Lamers", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
     ],
+    "1086": [
+      {"naam": "Marijn Lems", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"}
+    ],
     "1087": [
       {"naam": "Rolf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
     ],
     "1091": [
       {"naam": "Anne de Jong", "type": "Ansichtkaart", "stuks": 700, "kandidaat_type": "Gemeenteraadskandidaat"},
       {"naam": "Willa Stoutenbeek", "type": "Eigen brief", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"},
+      {"naam": "Eelco Jacobs", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
       {"naam": "Famke", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
     ],
     "1093": [
