@@ -274,6 +274,7 @@ function buildMap(lopers) {
       h+=`<div class="lrij">
         <div class="lnaam">${l.naam}<span class="tag ${cls}">${label}</span></div>
         <div class="ldet">${l.stuks?l.stuks+" stuks":"–"}${l.type?" · "+l.type:""}</div>
+        ${l.notitie_locatie?`<div class="lnoot">📍 ${l.notitie_locatie}</div>`:""}
       </div>`;
     });
     return h;
@@ -307,14 +308,18 @@ function buildMap(lopers) {
     }
   }).addTo(map);
 
-  // Stats
-  let nL=0,nP=0,nS=0;
-  features.forEach(f=>{
-    const p=f.properties;
-    if(p.n>0) nL++;
-    nP+=p.n;
-    p.lopers.forEach(l=>{ if(l.stuks) nS+=l.stuks; });
+  // Stats – dedupliceer personen die in meerdere postcodes staan
+  const seenNames = new Map(); // naam → stuks (eerste voorkomen)
+  let nL = 0;
+  features.forEach(f => {
+    const p = f.properties;
+    if(p.n > 0) nL++;
+    p.lopers.forEach(l => {
+      if(!seenNames.has(l.naam)) seenNames.set(l.naam, l.stuks || 0);
+    });
   });
+  const nP = seenNames.size;
+  let nS = 0; seenNames.forEach(s => { nS += s; });
   document.getElementById("sn-lopers").textContent=nL;
   document.getElementById("sn-personen").textContent=nP;
   document.getElementById("sn-stuks").textContent=nS.toLocaleString("nl");
