@@ -1,112 +1,102 @@
 {
-  "bijgewerkt": "2026-03-07",
+  "bijgewerkt": "2026-03-08",
   "lopers": {
-    "1013": [
-      {"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
-    ],
-    "1016": [
-      {"naam": "Gijs Hoen-Wichers", "type": null, "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
-    ],
+    "1013": [{"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500}],
+    "1015": [{"naam": "Gijs Hoen-Wichers", "type": "Ansichtkaart", "stuks": 300}],
+    "1016": [{"naam": "Gijs Hoen-Wichers", "type": "Ansichtkaart", "stuks": 300}],
     "1018": [
-      {"naam": "Eva van der Meulen SDC", "type": "Ansichtkaart", "stuks": 150, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Helena de Boer", "type": null, "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
+      {"naam": "Eva van der Meulen", "type": "Ansichtkaart", "stuks": 150},
+      {"naam": "Helena de Boer", "type": "Ansichtkaart", "stuks": 300}
     ],
     "1019": [
-      {"naam": "Kris van der Veen", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Kris van der Veen", "type": "Ansichtkaart", "stuks": 600},
+      {"naam": "Sydney Schelvis", "type": "Ansichtkaart", "stuks": 100}
     ],
     "1024": [
-      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Martijn Fuldner", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": null},
+      {"naam": "Martijn Fuldner", "type": "Ansichtkaart", "stuks": 500}
     ],
-    "1051": [
-      {"naam": "Pelle Monnens", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
-    ],
-    "1053": [
-      {"naam": "Anneke Veenhoff", "type": "Ansichtkaart", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"}
-    ],
+    "1051": [{"naam": "Pelle Monnens", "type": "Eigen brief", "stuks": 1000}],
     "1055": [
-      {"naam": "Elisabeth IJmker", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Thamar Zijlstra", "type": null, "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Daisy van de Zande", "type": "Ansichtkaart", "stuks": 400, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"}
+      {"naam": "Daisy van de Zande", "type": "Ansichtkaart", "stuks": 400},
+      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500},
+      {"naam": "Elisabeth IJmker", "type": "Ansichtkaart", "stuks": 600},
+      {"naam": "Thamar Zijlstra", "type": null, "stuks": null}
     ],
-    "1056": [
-      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"}
-    ],
+    "1056": [{"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500}],
     "1058": [
-      {"naam": "Misja Steinmetz", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Gregory Edelenbos", "type": "Ansichtkaart", "stuks": 100},
+      {"naam": "Misja Steinmetz", "type": "Eigen brief", "stuks": 500}
     ],
     "1064": [
-      {"naam": "Jamaa Taharrasst", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Thomas Lamers", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Thomas Lamers", "type": "Eigen brief", "stuks": 1000},
+      {"naam": "Jamaa Taharrasst", "type": "Eigen brief", "stuks": 500}
     ],
-    "1086": [
-      {"naam": "Marijn Lems", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"}
-    ],
-    "1087": [
-      {"naam": "Rolf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
-    ],
+    "1086": [{"naam": "Marijn Lems", "type": "Eigen brief", "stuks": null}],
+    "1087": [{"naam": "Rolf", "type": null, "stuks": null}],
     "1091": [
-      {"naam": "Anne de Jong", "type": "Ansichtkaart", "stuks": 700, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Willa Stoutenbeek", "type": "Eigen brief", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Eelco Jacobs", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Famke", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {"naam": "Eelco Jacobs", "type": "Eigen brief", "stuks": null},
+      {"naam": "Annie Berendsen", "type": "Eigen brief", "stuks": null},
+      {"naam": "Willa Stoutenbeek", "type": "Eigen brief", "stuks": 200},
+      {"naam": "Anne de Jong", "type": "Ansichtkaart", "stuks": 700},
+      {"naam": "Famke", "type": null, "stuks": null}
     ],
     "1093": [
-      {"naam": "Anna Bomhof", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {"naam": "Anna Bomhof", "type": null, "stuks": null}
     ],
-    "1094": [
-      {"naam": "Béla", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
-    ],
+    "1094": [{"naam": "Béla", "type": null, "stuks": null}],
     "1095": [
-      {"naam": "Kris", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Sadaf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Bastiaan", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {"naam": "Aimée Kmapschröen", "type": "Eigen brief", "stuks": null},
+      {"naam": "Josja Pieterse", "type": "Eigen brief", "stuks": null},
+      {"naam": "Kris", "type": null, "stuks": null},
+      {"naam": "Sadaf", "type": null, "stuks": null},
+      {"naam": "Bastiaan", "type": null, "stuks": null}
     ],
     "1097": [
-      {"naam": "Ruud", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Lian", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Sybolt", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {"naam": "Lian", "type": null, "stuks": null},
+      {"naam": "Ruud", "type": null, "stuks": null},
+      {"naam": "Sybolt", "type": null, "stuks": null}
     ],
     "1098": [
-      {"naam": "Jesse Beek", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "IJsbrand", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {"naam": "Alissa Kerklingh", "type": "Eigen brief", "stuks": null},
+      {"naam": "Jesse Beek", "type": "Eigen brief", "stuks": null},
+      {"naam": "IJsbrand", "type": null, "stuks": null}
     ],
     "1101": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1102": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1103": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1104": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1105": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1106": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1107": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1108": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ],
     "1109": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null},
+      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000}
     ]
   }
 }
