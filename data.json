@@ -1,121 +1,476 @@
 {
-  "bijgewerkt": "2026-03-08",
+  "bijgewerkt": "2026-03-09",
   "lopers": {
     "1013": [
-      {"naam": "Leander Cingöz", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Leander Cingöz",
+        "type": "Ansichtkaart",
+        "stuks": 500,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1015": [
-      {"naam": "Gijs Hoen-Wichers", "type": "Ansichtkaart", "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
+      {
+        "naam": "Gijs Hoen-Wichers",
+        "type": "Ansichtkaart",
+        "stuks": 300,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1016": [
-      {"naam": "Gijs Hoen-Wichers", "type": "Ansichtkaart", "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat"}
+      {
+        "naam": "Gijs Hoen-Wichers",
+        "type": "Ansichtkaart",
+        "stuks": 300,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1018": [
-      {"naam": "Eva van der Meulen", "type": "Ansichtkaart", "stuks": 150, "kandidaat_type": "Stadsdeelkandidaat", "notitie_locatie": "/ Oostenburg"},
-      {"naam": "Helena de Boer", "type": "Ansichtkaart", "stuks": 300, "kandidaat_type": "Stadsdeelkandidaat", "notitie_locatie": "/ Alexanderkade"}
+      {
+        "naam": "Eva van der Meulen",
+        "type": "Ansichtkaart",
+        "stuks": 150,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ Oostenburg"
+      },
+      {
+        "naam": "Helena de Boer",
+        "type": "Ansichtkaart",
+        "stuks": 300,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ Alexanderkade"
+      }
     ],
     "1019": [
-      {"naam": "Kris van der Veen", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Sydney Schelvis", "type": "Ansichtkaart", "stuks": 100, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "/ 1019LP"}
+      {
+        "naam": "Sydney Schelvis",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ 1019LP"
+      },
+      {
+        "naam": "Kris van der Veen",
+        "type": "Ansichtkaart",
+        "stuks": 600,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1024": [
-      {"naam": "Jeroen Boerma", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat", "notitie_locatie": "/ 1024 Jisperveldstraat - het gaat om 6 flats van 60 appartementen"},
-      {"naam": "Martijn Fuldner", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "/ 1024BA Nieuwendam en landelijk noord"}
+      {
+        "naam": "Jeroen Boerma",
+        "type": "Eigen brief",
+        "stuks": 240,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ 1024 Jisperveldstraat - het gaat om 6 flats van 60 appartementen"
+      },
+      {
+        "naam": "Martijn Fuldner",
+        "type": "Ansichtkaart",
+        "stuks": 500,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ 1024BA Nieuwendam en landelijk noord"
+      }
     ],
     "1051": [
-      {"naam": "Pelle Monnens", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Pelle Monnens",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1053": [
-      {"naam": "Anneke Veenhoff", "type": "Ansichtkaart", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Anneke Veenhoff",
+        "type": "Ansichtkaart",
+        "stuks": 200,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1055": [
-      {"naam": "Daisy van de Zande", "type": "Ansichtkaart", "stuks": 400, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Elisabeth IJmker", "type": "Ansichtkaart", "stuks": 600, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Thamar Zijlstra", "type": null, "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"}
+      {
+        "naam": "Emma Berentsen",
+        "type": "Ansichtkaart",
+        "stuks": 500,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ Robert Scott buurt"
+      },
+      {
+        "naam": "Elisabeth IJmker",
+        "type": "Ansichtkaart",
+        "stuks": 600,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Ten zuiden van Bos en Lommerweg en ten noorden van de Jan van Galenstraat"
+      },
+      {
+        "naam": "Thamar Zijlstra",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "Ten zuiden van Bos en Lommerweg en ten noorden van de Jan van Galenstraat"
+      },
+      {
+        "naam": "Daisy van de Zande",
+        "type": "Ansichtkaart",
+        "stuks": 400,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1056": [
-      {"naam": "Emma Berentsen", "type": "Ansichtkaart", "stuks": 500, "kandidaat_type": "Stadsdeelkandidaat"}
+      {
+        "naam": "Emma Berentsen",
+        "type": "Ansichtkaart",
+        "stuks": 500,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ Robert Scott buurt"
+      }
     ],
     "1058": [
-      {"naam": "Gregory Edelenbos", "type": "Ansichtkaart", "stuks": 100, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Misja Steinmetz", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "West - 1058CC Bos en Lommer, Landlust & Gibraltarbuurt."}
+      {
+        "naam": "Gregory Edelenbos",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "1058SR"
+      },
+      {
+        "naam": "Misja Steinmetz",
+        "type": "Eigen brief",
+        "stuks": 500,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "West - 1058CC  Bos en Lommer, Landlust & Gibraltarbuurt."
+      }
     ],
     "1064": [
-      {"naam": "Thomas Lamers", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "/ Musea straten"},
-      {"naam": "Jamaa Taharrasst", "type": "Eigen brief", "stuks": 500, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "/ 1064 KK - burgemeesters en filosofen straten."}
+      {
+        "naam": "Jamaa Taharrasst",
+        "type": "Eigen brief",
+        "stuks": 500,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ 1064 KK - burgemeesters en filosofen straten."
+      },
+      {
+        "naam": "Thomas Lamers",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ Musea straten"
+      }
     ],
     "1086": [
-      {"naam": "Marijn Lems", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"}
+      {
+        "naam": "Marijn Lems",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1087": [
-      {"naam": "Rolf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Rolf",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      }
     ],
     "1091": [
-      {"naam": "Eelco Jacobs", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Annie Berendsen", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Willa Stoutenbeek", "type": "Eigen brief", "stuks": 200, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Anne de Jong", "type": "Ansichtkaart", "stuks": 700, "kandidaat_type": "Gemeenteraadskandidaat", "notitie_locatie": "/ Oost - Weesperzijde"},
-      {"naam": "Famke", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Imelda Tjon-Fo",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Willa Stoutenbeek",
+        "type": "Eigen brief",
+        "stuks": 200,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ Oost - Oosterparkbuurt, andere kant van de Wibautstraat"
+      },
+      {
+        "naam": "Anne de Jong",
+        "type": "Ansichtkaart",
+        "stuks": 700,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ Oost - Weesperzijde"
+      },
+      {
+        "naam": "Famke",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Annie Berendsen",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Eelco Jacobs",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1093": [
-      {"naam": "Anna Bomhof", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Anna Bomhof",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      }
     ],
     "1094": [
-      {"naam": "Béla", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Béla",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      }
     ],
     "1095": [
-      {"naam": "Aimée Kmapschröen", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Josja Pieterse", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Kris", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Sadaf", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Bastiaan", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Bastiaan",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Kris",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Sadaf",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Aimée Kmapschröen",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Josja Pieterse",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      }
     ],
     "1097": [
-      {"naam": "Lian", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Ruud", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"},
-      {"naam": "Sybolt", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Lian",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Sybolt",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Ruud",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      }
     ],
     "1098": [
-      {"naam": "Alissa Kerklingh", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "Jesse Beek", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Stadsdeelkandidaat"},
-      {"naam": "IJsbrand", "type": null, "stuks": null, "kandidaat_type": "Vrijwilliger"}
+      {
+        "naam": "Jesse Beek",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "Coördinator Oost / Heeft concepttekst gestuurd, en is goedgekeurd"
+      },
+      {
+        "naam": "Alissa Kerklingh",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "IJsbrand",
+        "type": null,
+        "stuks": null,
+        "kandidaat_type": "Vrijwilliger",
+        "notitie_locatie": null
+      }
     ],
     "1101": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1102": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1103": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1104": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1105": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1106": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1107": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1108": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ],
     "1109": [
-      {"naam": "Milka Yemane", "type": "Eigen brief", "stuks": null, "kandidaat_type": "Gemeenteraadskandidaat"},
-      {"naam": "Walter Freeman", "type": "Eigen brief", "stuks": 1000, "kandidaat_type": "Gemeenteraadskandidaat"}
+      {
+        "naam": "Milka Yemane",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Walter Freeman",
+        "type": "Eigen brief",
+        "stuks": 1000,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Zuidoost - Kiete contactpersoon in verdelingen met Milka"
+      }
     ]
   }
 }
