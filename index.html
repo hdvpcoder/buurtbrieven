@@ -287,6 +287,8 @@ function buildMap(lopers) {
     return h;
   }
 
+  let selectedLayer = null;
+
   geoLayer = L.geoJSON(geojson,{
     style,
     onEachFeature(feat,layer) {
@@ -302,8 +304,21 @@ function buildMap(lopers) {
           l.setStyle(p.n?{fillOpacity:.85,weight:3}:{fillOpacity:.35,weight:1.5});
           l.bringToFront();
         },
-        mouseout(e)  { if(!hiddenPcs.has(pc)) geoLayer.resetStyle(e.target); },
-        click(e)     { if(!hiddenPcs.has(pc)) map.fitBounds(e.target.getBounds(),{padding:[50,50]}); }
+        mouseout(e)  { if(!hiddenPcs.has(pc) && e.target !== selectedLayer) geoLayer.resetStyle(e.target); },
+        click(e) {
+          if(hiddenPcs.has(pc)) return;
+          L.DomEvent.stopPropagation(e);
+          if(selectedLayer === e.target) {
+            // Tweede klik op hetzelfde gebied: deselecteer
+            geoLayer.resetStyle(selectedLayer);
+            selectedLayer = null;
+          } else {
+            if(selectedLayer) geoLayer.resetStyle(selectedLayer);
+            selectedLayer = e.target;
+            e.target.setStyle({fillOpacity:0.12, weight:2});
+            map.fitBounds(e.target.getBounds(),{padding:[50,50]});
+          }
+        }
       });
     }
   }).addTo(map);
@@ -325,6 +340,11 @@ function buildMap(lopers) {
   document.getElementById("sn-stuks").textContent=nS.toLocaleString("nl");
 
   buildPanel(features);
+
+  // Klik buiten een postcode: deselecteer
+  map.on('click', () => {
+    if(selectedLayer) { geoLayer.resetStyle(selectedLayer); selectedLayer = null; }
+  });
 }
 
 // Laad data.json
