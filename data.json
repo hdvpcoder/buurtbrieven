@@ -378,6 +378,13 @@
     ],
     "1104": [
       {
+        "naam": "Tanisha Rumi",
+        "type": "Ansichtkaart",
+        "stuks": 700,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
+      },
+      {
         "naam": "Milka Yemane",
         "type": "Eigen brief",
         "stuks": null,
