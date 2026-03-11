@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-03-09",
+  "bijgewerkt": "2026-03-11",
   "lopers": {
     "1013": [
       {
@@ -17,6 +17,13 @@
         "stuks": 300,
         "kandidaat_type": "Stadsdeelkandidaat",
         "notitie_locatie": null
+      },
+      {
+        "naam": "Zippora Elders",
+        "type": "Ansichtkaart",
+        "stuks": 300,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Oostpoort of Noordermarkt"
       }
     ],
     "1016": [
@@ -46,18 +53,18 @@
     ],
     "1019": [
       {
-        "naam": "Sydney Schelvis",
-        "type": "Ansichtkaart",
-        "stuks": 100,
-        "kandidaat_type": "Gemeenteraadskandidaat",
-        "notitie_locatie": "/ 1019LP"
-      },
-      {
         "naam": "Kris van der Veen",
         "type": "Ansichtkaart",
         "stuks": 600,
         "kandidaat_type": "Gemeenteraadskandidaat",
         "notitie_locatie": null
+      },
+      {
+        "naam": "Sydney Schelvis",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "/ 1019LP"
       }
     ],
     "1024": [
@@ -96,23 +103,16 @@
     ],
     "1055": [
       {
-        "naam": "Emma Berentsen",
-        "type": "Ansichtkaart",
-        "stuks": 500,
-        "kandidaat_type": "Stadsdeelkandidaat",
-        "notitie_locatie": "/ Robert Scott buurt"
-      },
-      {
         "naam": "Elisabeth IJmker",
         "type": "Ansichtkaart",
-        "stuks": 600,
+        "stuks": 300,
         "kandidaat_type": "Gemeenteraadskandidaat",
         "notitie_locatie": "Ten zuiden van Bos en Lommerweg en ten noorden van de Jan van Galenstraat"
       },
       {
         "naam": "Thamar Zijlstra",
-        "type": null,
-        "stuks": null,
+        "type": "Ansichtkaart",
+        "stuks": 300,
         "kandidaat_type": "Stadsdeelkandidaat",
         "notitie_locatie": "Ten zuiden van Bos en Lommerweg en ten noorden van de Jan van Galenstraat"
       },
@@ -122,6 +122,13 @@
         "stuks": 400,
         "kandidaat_type": "Stadsdeelkandidaat",
         "notitie_locatie": null
+      },
+      {
+        "naam": "Emma Berentsen",
+        "type": "Ansichtkaart",
+        "stuks": 500,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": "/ Robert Scott buurt"
       }
     ],
     "1056": [
@@ -135,18 +142,18 @@
     ],
     "1058": [
       {
-        "naam": "Gregory Edelenbos",
-        "type": "Ansichtkaart",
-        "stuks": 100,
-        "kandidaat_type": "Gemeenteraadskandidaat",
-        "notitie_locatie": "1058SR"
-      },
-      {
         "naam": "Misja Steinmetz",
         "type": "Eigen brief",
         "stuks": 500,
         "kandidaat_type": "Gemeenteraadskandidaat",
         "notitie_locatie": "West - 1058CC  Bos en Lommer, Landlust & Gibraltarbuurt."
+      },
+      {
+        "naam": "Gregory Edelenbos",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "1058SR"
       }
     ],
     "1064": [
@@ -185,11 +192,11 @@
     ],
     "1091": [
       {
-        "naam": "Imelda Tjon-Fo",
+        "naam": "Anne de Jong",
         "type": "Ansichtkaart",
-        "stuks": 100,
+        "stuks": 700,
         "kandidaat_type": "Gemeenteraadskandidaat",
-        "notitie_locatie": null
+        "notitie_locatie": "/ Oost - Weesperzijde"
       },
       {
         "naam": "Willa Stoutenbeek",
@@ -199,17 +206,10 @@
         "notitie_locatie": "/ Oost - Oosterparkbuurt, andere kant van de Wibautstraat"
       },
       {
-        "naam": "Anne de Jong",
-        "type": "Ansichtkaart",
-        "stuks": 700,
-        "kandidaat_type": "Gemeenteraadskandidaat",
-        "notitie_locatie": "/ Oost - Weesperzijde"
-      },
-      {
-        "naam": "Famke",
-        "type": null,
+        "naam": "Eelco Jacobs",
+        "type": "Eigen brief",
         "stuks": null,
-        "kandidaat_type": "Vrijwilliger",
+        "kandidaat_type": "Stadsdeelkandidaat",
         "notitie_locatie": null
       },
       {
@@ -220,10 +220,17 @@
         "notitie_locatie": null
       },
       {
-        "naam": "Eelco Jacobs",
-        "type": "Eigen brief",
+        "naam": "Imelda Tjon-Fo",
+        "type": "Ansichtkaart",
+        "stuks": 100,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Komt tijd komt raad, lijst GroenLinks gemeenteraad plek 23#"
+      },
+      {
+        "naam": "Famke",
+        "type": null,
         "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat",
+        "kandidaat_type": "Vrijwilliger",
         "notitie_locatie": null
       }
     ],
@@ -234,6 +241,13 @@
         "stuks": null,
         "kandidaat_type": "Vrijwilliger",
         "notitie_locatie": null
+      },
+      {
+        "naam": "Zippora Elders",
+        "type": "Ansichtkaart",
+        "stuks": 300,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": "Oostpoort of Noordermarkt"
       }
     ],
     "1094": [
@@ -247,7 +261,21 @@
     ],
     "1095": [
       {
-        "naam": "Bastiaan",
+        "naam": "Josja Pieterse",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Aimée Kmapschröen",
+        "type": "Eigen brief",
+        "stuks": null,
+        "kandidaat_type": "Stadsdeelkandidaat",
+        "notitie_locatie": null
+      },
+      {
+        "naam": "Sadaf",
         "type": null,
         "stuks": null,
         "kandidaat_type": "Vrijwilliger",
@@ -261,30 +289,16 @@
         "notitie_locatie": null
       },
       {
-        "naam": "Sadaf",
+        "naam": "Bastiaan",
         "type": null,
         "stuks": null,
         "kandidaat_type": "Vrijwilliger",
-        "notitie_locatie": null
-      },
-      {
-        "naam": "Aimée Kmapschröen",
-        "type": "Eigen brief",
-        "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat",
-        "notitie_locatie": null
-      },
-      {
-        "naam": "Josja Pieterse",
-        "type": "Eigen brief",
-        "stuks": null,
-        "kandidaat_type": "Stadsdeelkandidaat",
         "notitie_locatie": null
       }
     ],
     "1097": [
       {
-        "naam": "Lian",
+        "naam": "Ruud",
         "type": null,
         "stuks": null,
         "kandidaat_type": "Vrijwilliger",
@@ -298,7 +312,7 @@
         "notitie_locatie": null
       },
       {
-        "naam": "Ruud",
+        "naam": "Lian",
         "type": null,
         "stuks": null,
         "kandidaat_type": "Vrijwilliger",
@@ -378,18 +392,18 @@
     ],
     "1104": [
       {
-        "naam": "Tanisha Rumi",
-        "type": "Ansichtkaart",
-        "stuks": 700,
-        "kandidaat_type": "Gemeenteraadskandidaat",
-        "notitie_locatie": null
-      },
-      {
         "naam": "Milka Yemane",
         "type": "Eigen brief",
         "stuks": null,
         "kandidaat_type": "Gemeenteraadskandidaat",
         "notitie_locatie": "Zuidoost - specifieke postcode nog te bepalen\nKiete contactpersoon in verdelingen met Walter"
+      },
+      {
+        "naam": "Tanisha Rumi",
+        "type": "Ansichtkaart",
+        "stuks": 700,
+        "kandidaat_type": "Gemeenteraadskandidaat",
+        "notitie_locatie": null
       },
       {
         "naam": "Walter Freeman",
